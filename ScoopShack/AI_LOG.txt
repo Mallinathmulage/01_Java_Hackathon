@@ -1,0 +1,21 @@
+SCOOPSHACK - AI LOG   (team: add your names and EDIT this honestly before submitting)
+=====================================================================================
+Rule from the problem: write what you asked the AI, and what you changed.
+
+1. Asked AI: "Build the complete ScoopShack project from the problem PDF."
+   AI gave: project in 6 packages (app, exceptions, model, service, ui, util).
+   We changed: ______________________________________________
+
+2. Asked AI: "Make sure it matches the PDF rules exactly."
+   AI audited the code against every rule and made 3 fixes:
+   - replaced Arrays.copyOf with manual array copying ("arrays only" rule)
+   - removed an extra bills.log file writer (console-only program, not in the rules)
+   - rewrote the README to follow the PDF structure
+   We changed / checked: _____________________________________
+
+3. Tests run by AI: PDF cases 1-4 (354.00, 1289.15, stock exception, id 999),
+   undo, 25 orders (array growth), 12-line order (stack growth), odd/even windows,
+   wrong input (letters, negatives, empty names, Ctrl+D). All passed.
+   Our own tests / bugs we found: ______________________________
+
+(Add every new prompt you use below.)
